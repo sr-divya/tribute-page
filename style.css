@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Roboto:wght@300&family=Work+Sans:wght@400;500&display=swap');
+
+body{
+    overflow-x: hidden;
+    justify-content: center;
+    text-align: center;
+    font-family: roboto;   
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.container{
+    background-color: #eeeeee;
+    margin: 2rem 5rem;
+    padding: 2rem 10rem;
+    /* border: 2px dark grey; */
+    box-sizing: border-box;
+    /* border: 2px solid grey; */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+h1{
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px black;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+img{
+    margin-top: 1rem;
+    box-shadow: 8px 5px 5px black;
+}
+.main{
+    margin-top: 3rem;
+    text-align: start;
+}
+
+#quote{
+    text-decoration: none;
+    margin-top: 5rem;
+}
+
+p{
+    line-height: 1.5rem;
+    word-spacing: 2px;
+}
+
+li{
+    line-height: 1.5rem;
+    word-spacing: 2px;
+}
+
+@media screen and (max-width:1100px) and (min-width:768px){
+    .container{
+        margin: 2rem 2rem;
+        padding: 2rem 5rem;
+    }
+
+    img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:481px){
+    .container{
+        margin: 2rem 2rem;
+        padding: 2rem 5rem;
+    }
+
+    img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:480px){
+    .container{
+        margin: 1rem 1rem;
+        padding: 2rem 2rem;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    body{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
